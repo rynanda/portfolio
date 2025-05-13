@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ryan Indrananda</title>
+  <link href="./style.css" rel="stylesheet"/>
+  <link href="./all.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+<nav>
+  <h2 id="logo">Ryan Indrananda</h2>
+  <ul class="navigation-items">
+    <li class="navigation-item"><a href="#about-me">About Me</a></li>
+    <!--    <li class="navigation-item"><a href="#projects">Projects</a></li>-->
+    <!--    <li class="navigation-item"><a href="#skills">Skills</a></li>-->
+    <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="about-me">
+    <div class="about-me-container">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>
+          Hey there! I'm Ryan, and I'm a distinct recent-graduate full-stack web and software developer based in
+          Brisbane,
+          Australia.
+        </p>
+        <p>
+          I love everything about tech and its incredible uses in the everyday world, having studied and graduated a
+          Bachelor of Information Technology degree with distinction from the Queensland University of Technology with a
+          double major in Computer Science and Data Science.
+        </p>
+        <p>
+          I specialise in creating amazing applications using a plethora of languages and tools, working within diverse
+          and highly collaborative Agile teams backed with a keen attention to detail, creative problem-solving,
+          passionate proactivity, and initiative.
+        </p>
+        <p>
+          I wrote my very first program - a simple calculator for frequently-used equations and functions for my high
+          school Physics class written in Python - around August 2019, so I have been coding for roughly
+          <span id="time-container">0</span> seconds!
+        </p>
+        <p>
+          Get to know me and my passions through my projects and skills below!
+        </p>
+      </div>
+      <div class="about-me-img">
+        <img alt="Ryan Indrananda headshot" class="portrait" src="./assets/ryan.jpeg">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <details class="project">
+      <summary class="project-title">
+        <h3>Volcanoes of the World</h3>
+      </summary>
+      <img alt="Volcanoes of the World" class="project-hero" src="assets/volcanoes.png"/>
+      <p class="project-description">
+        A React-based web application for users to view and analyse data about volcanoes based and extending on a REST
+        API for data retrieval and user authentication. Authorised and registered users gain access to extra information
+        using data and authentication endpoints fetched and handled with HTTP GET and POST requests. The root serves
+        Swagger documentation for API reference.
+      </p>
+      <p>Technologies:</p>
+      <ul class="project-tech">
+        <li>React.js</li>
+        <li>Node.js + Express.js</li>
+        <li>MySQL</li>
+        <li>Knex.js</li>
+        <li>JWT</li>
+        <li>Swagger</li>
+      </ul>
+      <a class="project-link" href="https://github.com/rynanda/expvolcanoes-react">GitHub Repository Link</a>
+      <hr>
+    </details>
+    <details class="project">
+      <summary class="project-title">
+        <h3>Simon Game</h3>
+      </summary>
+      <img alt="Simon Game" class="project-hero" src="assets/QUTy.png"/>
+      <p class="project-description">
+        Enhancing memory skills through musical pattern recognition via a pattern-based music memorisation game written
+        in C for the ATtiny1626 microcontroller. I am especially proud of this one as I got a 7/7 high distinction grade
+        for a unit which had an extremely high fail rate in the previous teaching semester!
+      </p>
+      <p>Technologies:</p>
+      <ul class="project-tech">
+        <li>C</li>
+        <li>ATtiny1626 microcontroller</li>
+        <li>PlatformIO</li>
+      </ul>
+      <a class="project-link" href="https://github.com/rynanda/Simon-music-game">GitHub Repository Link</a>
+      <hr>
+    </details>
+    <details class="project">
+      <summary class="project-title">
+        <h3>Raspberry Pi Music Diary Twitter Bot</h3>
+      </summary>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen class="project-hero"
+              frameborder="0" height="315"
+              referrerpolicy="strict-origin-when-cross-origin"
+              src="https://www.youtube.com/embed/wj8eE5dgzlM?si=J32zggr82fOWznZe" title="YouTube video player"
+              width="560">
+      </iframe>
+      <p class="project-description">
+        An early project of mine and one I look back on fondly as a start to my coding journey. A music diary Twitter
+        bot tweeting logs of what a user is or has been listening to accompanied by an image of said user, as well as a
+        physical notifier of when a music-related tweet is detected on the X/Twitter platform. Makes use of the Twitter
+        and Last.fm APIs. View a video demonstration of this project above!
+      </p>
+      <p>Technologies:</p>
+      <ul class="project-tech">
+        <li>Python</li>
+        <li>Raspberry Pi with an attached webcam and LED</li>
+        <li>tweepy library for Twitter API interactions</li>
+        <li>pylast library for Last.fm API interactions</li>
+        <li>picamera and opencv libraries for webcam image capture</li>
+      </ul>
+      <a class="project-link" href="https://github.com/rynanda/Raspberry-Pi-Twitterbot">GitHub Repository Link</a>
+      <hr>
+    </details>
+    <p>
+      But that's not all! Visit my <a href="https://github.com/rynanda" target="_blank">GitHub</a> for a further look
+      into my projects and passions!
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h4 class="skill">Full-stack Web Development</h4>
+    <div class="skills-container">
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-js"></i>
+      <i class="fab fa-react"></i>
+      <i class="fab fa-node"></i>
+      <i class="fab fa-npm"></i>
+      <img alt="MySQL" src="https://cdn.simpleicons.org/mysql" width="24"/>
+      <i class="fab fa-figma"></i>
+    </div>
+
+    <h4 class="skill">Back-end Software Development</h4>
+    <div class="skills-container">
+      <i class="fab fa-python"></i>
+      <i class="fab fa-java"></i>
+      <i class="fab fa-c"></i>
+      <img alt="C" src="https://cdn.simpleicons.org/c" width="32"/>
+      <img alt="C++" src="https://cdn.simpleicons.org/cplusplus" width="32"/>
+      <img alt="C#" src="./assets/csharp.png" width="32"/>
+    </div>
+
+    <h4 class="skill">Data Analytics</h4>
+    <div class="skills-container">
+      <img alt="R" src="https://cdn.simpleicons.org/r" width="32"/>
+      <img alt="MATLAB" src="assets/MATLAB.png" width="32"/>
+    </div>
+    <h4 class="skill">Version Control</h4>
+    <div class="skills-container">
+      <i class="fab fa-git"></i>
+      <i class="fab fa-github"></i>
+    </div>
+  </section>
+</main>
+<footer>Ryan Indrananda</footer>
+</body>
+<script>
+    const timeContainer = document.getElementById('time-container');
+    const CODING_START_DAY = "8-15-2019";
+    const CODING_START_DATE = new Date(CODING_START_DAY);
+    const intlNumberFormat = new Intl.NumberFormat('en-US');
+
+    setInterval(() => {
+        const now = new Date();
+        const difference = Math.floor(
+            (now.getTime() - CODING_START_DATE.getTime()) / 1000
+        );
+
+        timeContainer.innerText = intlNumberFormat.format(difference);
+    })
+</script>
+</html>
